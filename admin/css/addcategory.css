@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image:url(https://gamerwall.pro/uploads/posts/2022-03/1648724834_23-gamerwall-pro-p-estetichnii-fon-nochnogo-goroda-krasivie-29.jpg); */
+    background-position: center; 
+   background-repeat: no-repeat; 
+   background-size: cover; 
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type:none ;
+}
+.container{
+    max-width: 1140px;
+    margin:  auto;
+    box-sizing: border-box;
+   
+}
+.category>div{
+    width: 60%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    margin: 210px auto;
+    border-radius: 10px;
+    border: 10px solid;
+    
+
+
+}
+#cat{
+    border: none;
+    list-style-type: none;
+    background-color: rgb(221, 217, 217);
+    color: rgb(7, 13, 19);
+    border-radius: 5px;
+    height: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#but{
+    margin-top: 5px;
+    padding: 8px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+#but:hover{
+    background-color: black;
+    color: antiquewhite;
+    width: 110px;
+}

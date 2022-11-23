@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image:url(https://gamerwall.pro/uploads/posts/2022-03/1648724834_23-gamerwall-pro-p-estetichnii-fon-nochnogo-goroda-krasivie-29.jpg); */
+    /* background-color: rgba(0, 0, 0, 0.714); */
+    background-position: center; 
+   background-repeat: no-repeat; 
+   /* background-color: rgba(227, 153, 14, 0.462); */
+   background-size: cover; 
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type:none ;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+}
+header{
+    margin: 0 auto;
+    text-align: center;
+}
+.man{
+    background-color: aliceblue;
+    box-shadow: 4px 4px 5px orange;
+    position: relative;
+
+    width: 100%;
+}
+.man .container{
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+.man p{
+    font-size: 20px;
+    /* font-family: math; */
+    font-weight: bold;
+    color: rgb(216, 16, 16);
+}
+.man img{
+    width: 60px;
+   height: 100%;
+}
+.carsina{
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+
+}
+.nkarner{
+   max-width: 60px;
+ 
+    margin:0 auto;
+}
+.carousel {
+    align-items: center;
+    justify-content: space-between;
+    perspective: 100rem;
+    height: 40vh;
+    margin-top: 30px;
+    background-color: #f9f3f3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-items {
+    position: relative;
+    width: 310px;
+    height: 250px;
+    margin: 40px auto;
+    transform-style: preserve-3d;
+    transform: translateZ(-25rem);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrows{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+.fa-chevron-right:before {
+    font-size: 40px;
+    color: aqua;
+    font-weight: bolder;
+}
+.fa-chevron-left:before {
+    font-size: 40px;
+    color: rgb(255, 72, 0);
+    font-weight: bolder;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.cateov p{
+    font-size: 30px;
+    color: rgb(29, 107, 176);
+    font-weight: bold;
+
+}
+.takicDiv{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 5px rgba(106, 98, 95, 0.505);
+    width: 21%;
+    height: auto;
+
+    
+}
+.nameprise{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.nameprise p{
+    font-size: 15px;
+
+}
+.productimg{
+    max-width: 100%;
+    height: 30vh;
+}
+#cati{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cateov{
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+    box-shadow: 4px 10px 5px rgb(198, 198, 198);
+width: 100%;
+text-align: center;
+background-color: rgb(216, 233, 247);
+
+}
+
+.prodner{
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nameprise{
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+.nameprise div{
+    height: 38px;
+
+}
+ .prodname p{
+ font-size: 18px;
+ font-weight: bolder;
+ font-family: sans-serif;
+ background-color: rgb(215, 225, 233);
+ box-shadow: 4px 4px rgb(245, 233, 229) ;
+}
+.productPrise p{
+    font-size: 18px;
+    color: #212121;
+    font-weight: bolder;
+
+   
+
+
+} 
+.carsina i{
+    font-size: 35px;
+    color: brown;
+}
+
+.cartdiv{
+    width: 20%;
+    max-height: 500px;
+    background-color: aqua;
+    position: absolute;
+    right: -15%;
+    bottom: -14%;
+    opacity: 0;
+    transition: .5s;
+}
+.tesaneli{
+    opacity: 1;
+    
+}
+.butni p{
+    margin: 0 auto;
+  
+}
+.tes{
+    width: 40%;
+    display: flex;
+    gap: 80px;
+    
+    
+}
+/* .tes img{
+    
+} */
+.mejin{
+    display: flex;
+    background-color: rgb(244, 242, 246);
+    position: static !important;
+    border: 1px solid;
+    position: relative;
+    max-height: 90px;
+    border-radius: 14px;
+    margin: 4px;
+    padding: 10px;
+    
+}
+.mejin>div{
+    width: 40%;
+
+}
+.mejin>div img{
+    width: 100%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+
+}
+#showCart{
+    min-height: 150px;
+    max-height: 500px;
+    width: 350px;
+    overflow: auto;
+    background-color: rgb(196, 189, 189);
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 1000;
+    /* color: #212121; */
+    border: 1px solid #212121;
+    border-radius: 10px;
+    transition: .5s;
+    /* opacity: 0; */
+}
+
+
+
+.one{
+    border: none;
+    font-size: 16px;
+    color: aquamarine;
+    background-color: #212121;
+    border-radius: 5px;
+    padding: 4px;
+    transition: .4s;
+    cursor: pointer;
+}
+.one:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+.prname{
+/* position: absolute; */
+margin-top: -20px;
+color: aliceblue;
+}
+.fone{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.fl{
+    display: flex;
+}
+.fl p{
+    background-color: rgb(198, 202, 205);
+    color: #212121;
+    font-family: sans-serif;
+}
+.dingo{
+    position: absolute;
+    right: 8px;
+    font-size: 18px;
+    color: red;
+}
+footer{
+    background-color: #dedcdc;
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c8c19e;
+    border-radius: 20px;
+}
+.a p{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size:23px;
+    color: #bea420;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #878787;
+}
+.footer li{
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+    padding: 4px;
+}
+.footer li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    font-size: 25px;
+    color: orange;
+}
+.fa-square-facebook:before {
+    content: "\f082";
+    color: blue;
+    font-size: 25px;
+}
+.fa-at:before {
+    content: "\40";
+    color: rgb(90, 90, 243);
+    font-size: 25px;
+}
+.fa-x:before {
+    content: "\58";
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+   .a1,.a2{
+      display: none;
+    }
+    .takicDiv{
+        width: 180px;
+        height: auto;
+    }
+    .prodner{
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+
+    }
+    .footer{
+        gap: 40px;
+    }
+    .cateov{
+       display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+    #cati{
+        display: flex;
+        justify-content: center;
+
+    }
+    .carousel-items{
+    width: 50%;
+
+    }
+  }
+  
+  #fullGago{
+    position: absolute;
+    left:-90px;
+  }
